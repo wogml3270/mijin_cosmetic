@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.mask_detail {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 1110px;
+}
+
+.pcnone {
+    display: none;
+}
+
+.bsc_title {
+    /* width: 100%; */
+}
+
+.bsc_title > img {
+    width: 100%;
+}
+
+.bsc_circle {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.bsc_circle > img {
+    width: 70%;
+}
+
+.bscscript {
+    margin-top: 30px;
+}
+
+.bscscript > p:first-child {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #F3B41E;
+    margin-bottom: 30px;
+}
+
+.bscscript > p:last-child {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #787878;
+}
+
+.features_bsc {
+    margin-top: 50px;
+}
+
+.features_bsc > div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: initial;
+}
+
+.bsc_mask {
+    width: 38%;
+    text-align: center;
+}
+
+.bsc_mask > img {
+    width: 70%;
+    min-width: 196px;
+}
+
+.bsc_mask + div {
+    margin-left: 1%;
+}
+
+.features_bsc h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F3B41E;
+    margin-bottom: 50px;
+}
+
+.features_bsc span {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.features_bsc p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.bsc_ingredient > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #787878;
+    text-align: initial;
+    /* margin-left: 10%; */
+    margin-top: 50px;
+}
+
+.bsc_howuse {
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.bsc_howuse h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #111111;
+    margin-bottom: 50px;
+}
+
+.bsc_howuse p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #111111;
+    margin-bottom: 50px;
+}
+
+.bsc_howuse p:last-child {
+    margin-bottom: 0;
+}
+
+.bsc_precautions {
+    text-align: initial;
+    margin-top: 50px;
+    /* margin-left: 10%; */
+}
+
+.bsc_precautions p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #787878;
+}
+.bsc_precautions p:first-child {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:900px){
+
+    /* .pcnone > h4 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        color: #333;
+        margin: 0;
+        margin-top: 161px;
+    }
+    
+    .pcnone > p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: #F5C7D1;
+    } */
+
+    /* .bsc_title {
+        display: none;
+    } */
+    .bsc_title > img{
+        width: 100%;
+    }
+
+    .bscscript > p:first-child {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .features_bsc > div {
+        flex-direction: column;
+    }
+
+    .bsc_mask {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .bsc_mask > img {
+        width: 45%;
+        min-width: initial;
+    }
+
+    .bsc_mask + div {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .features_bsc h5 {
+        font-size: 36px;
+        line-height: 36px;
+        margin-top: 50px;
+    }
+
+
+    
+
+}
+
+

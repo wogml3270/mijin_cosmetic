@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+/* notice */
+.notice-section {
+    width: 100%;
+    margin-top: 120px;
+  }
+  
+  .notice-section .notice-contetn-wrap > h3 {
+    font-family: "SUIT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 80px;
+  }
+  
+  .notice-section .notice-contetn-wrap .content {
+    width: 100%;
+  }
+  .notice-section .notice-contetn-wrap .content table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .notice-section .notice-contetn-wrap .content table thead tr {
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #DDDDDD;
+  }
+  .notice-section .notice-contetn-wrap .content table thead tr th {
+    padding: 20px 0;
+    font-family: "SUIT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+  }
+  .notice-section .notice-contetn-wrap .content table thead tr th:nth-child(1) {
+    width: 110px;
+  }
+  .notice-section .notice-contetn-wrap .content table thead tr th:nth-child(2) {
+    width: 1111px;
+  }
+  .notice-section .notice-contetn-wrap .content table thead tr th:nth-child(3) {
+    width: 179px;
+  }
+  .notice-section .notice-contetn-wrap .content table tbody tr {
+    transition: all 0.3s;
+  }
+  .notice-section .notice-contetn-wrap .content table tbody tr td {
+    padding: 20px 0;
+    font-family: "SUIT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #555555;
+    border-bottom: 1px solid #DDDDDD;
+  }
+  .notice-section .notice-contetn-wrap .content table tbody tr td:nth-child(1) {
+    text-align: center;
+  }
+  .notice-section .notice-contetn-wrap .content table tbody tr td:nth-child(2) {
+    padding-left: 40px;
+  }
+  .notice-section .notice-contetn-wrap .content table tbody tr td:nth-child(3) {
+    text-align: center;
+  }
+  .notice-section .notice-contetn-wrap .content table tbody tr:last-child td {
+    border-bottom: 1px solid #666666;
+  }
+  .notice-section .notice-contetn-wrap .content table tbody tr:hover {
+    background: #F6FAFD;
+  }
+  .notice-section .notice-contetn-wrap .content .pageing {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .notice-section .notice-contetn-wrap .content .pageing div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #DDDDDD;
+    position: relative;
+  }
+  .notice-section .notice-contetn-wrap .content .pageing div a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "SUIT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .notice-section .notice-contetn-wrap .content .pageing .num.active {
+    border-left: 0;
+    border-right: 0;
+  }
+  .notice-section .notice-contetn-wrap .content .pageing .num.active::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #006FBE;
+    bottom: 0;
+  }
+  
+  /* notice - board */
+  .notice-section .board-contetn-wrap {
+    width: 73.5688%;
+    margin: 0 auto;
+    margin-top: 36px;
+    margin-bottom: 160px;
+  }
+  .notice-section .board-contetn-wrap > h3 {
+    font-family: "SUIT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 80px;
+    margin-left: 0;
+  }
+  .notice-section .board-contetn-wrap > h3 svg {
+    margin-left: 12px;
+  }
+  .notice-section .board-contetn-wrap .content {
+    width: 100%;
+  }
+  .notice-section .board-contetn-wrap .content table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .notice-section .board-contetn-wrap .content table thead tr {
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #DDDDDD;
+  }
+  .notice-section .board-contetn-wrap .content table thead tr th {
+    padding: 20px 0;
+    font-family: "SUIT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+  }
+  .notice-section .board-contetn-wrap .content table thead tr th:nth-child(1) {
+    width: 110px;
+  }
+  .notice-section .board-contetn-wrap .content table thead tr th:nth-child(2) {
+    width: 1111px;
+  }
+  .notice-section .board-contetn-wrap .content table thead tr th:nth-child(3) {
+    width: 179px;
+  }
+  .notice-section .board-contetn-wrap .content table tbody tr {
+    transition: all 0.3s;
+  }
+  .notice-section .board-contetn-wrap .content table tbody tr td {
+    padding: 20px 0;
+    font-family: "SUIT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #555555;
+    border-bottom: 1px solid #DDDDDD;
+  }
+  .notice-section .board-contetn-wrap .content table tbody tr td a{
+    color: #555555;
+  }
+  .notice-section .board-contetn-wrap .content table tbody tr td:nth-child(1) {
+    text-align: center;
+  }
+  .notice-section .board-contetn-wrap .content table tbody tr td:nth-child(2) {
+    padding-left: 40px;
+  }
+  .notice-section .board-contetn-wrap .content table tbody tr td:nth-child(3) {
+    text-align: center;
+  }
+  .notice-section .board-contetn-wrap .content table tbody tr:last-child td {
+    border-bottom: 1px solid #666666;
+  }
+  .notice-section .board-contetn-wrap .content table tbody tr:hover {
+    background: #F6FAFD;
+  }
+  .notice-section .board-contetn-wrap .content .pageing {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .notice-section .board-contetn-wrap .content .pageing div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #DDDDDD;
+    position: relative;
+  }
+  .notice-section .board-contetn-wrap .content .pageing div a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "SUIT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .notice-section .board-contetn-wrap .content .pageing .num.active {
+    border-left: 0;
+    border-right: 0;
+  }
+  .notice-section .board-contetn-wrap .content .pageing .num.active::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #006FBE;
+    bottom: 0;
+  }

@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+.mask_detail {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 1110px;
+}
+
+/* .mask_detail > h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: #533621;
+    margin: 0;
+    margin-top: 161px;
+}
+
+.mask_detail > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #CCAF98;
+}
+
+.mask_detail > span {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #222;
+    text-align: right;
+    margin-right: 20%;
+} */
+
+.mask_detail > div > img {
+    width: 100%;
+}
+
+.dewy_scr {
+    margin-top: 50px;
+}
+
+.dewy_scr > div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.dewy_scr > div:last-child {
+    flex-flow: row-reverse nowrap;
+}
+
+.dewy_scr > div > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #787878;
+    text-align: initial;
+    margin-top: 50px;
+}
+
+.dewy_scr > div:first-child img {
+    margin-left: 5%;
+}
+
+.dewy_scr > div:last-child p {
+    margin-left: 5%;
+}
+
+.features_dewy {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.features_dewy img {
+    margin-top: 40px;
+}
+
+.features_dewy > div > h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: #1DD5E9;
+    margin-top: 0;
+    text-align: initial;
+}
+
+.features_dewy p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #111111;
+    text-align: initial;
+    margin-top: 30px;
+}
+
+.features_dewy > div > p:nth-of-type(1) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.dewy_ingredient > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: initial;
+    color: #787878;
+    margin-top: 50px;
+}
+
+.howuse {
+    margin-top: 50px;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.howuse > div {
+    margin: 50px 0;
+}
+
+.howuse > div > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+    text-align: initial;
+    margin-left: 0;
+}
+
+.howuse > div > p:last-child {
+    margin-top: 60px;
+}
+
+.precautions {
+    margin-top: 50px;
+    text-align: initial;
+}
+
+.precautions > p:first-child {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.precautions > p:last-child {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #787878;
+}
+
+@media screen and (max-width: 900px){
+    /* .detail_line {
+       margin-left: -10%;
+    }
+    
+    .mask_detail {
+        margin-left: -10%;
+    } */
+
+    .mask_detail > h4 {
+        font-size: 30px;
+    }
+
+    .mask_detail > p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .dewy_scr > div {
+        flex-flow: column-reverse nowrap;
+    }
+
+    .dewy_scr > div:last-child {
+        flex-flow: column-reverse nowrap;
+    }
+
+    .dewy_scr > div:first-child img {
+        margin-left: 0;
+    }
+
+    .dewy_scr > div > p {
+        margin: 50px auto;
+    }
+
+    .dewy_scr > div:last-child p {
+        margin: 50px auto;
+    }
+
+    .features_dewy {
+        display: initial;
+    }
+
+    .features_dewy > div:last-child {
+        margin-top: 50px;
+    }
+
+    .features_dewy > div > h5 {
+        text-align: center;
+    }
+
+    .features_dewy p {
+        text-align: center;
+    }
+
+    .howuse > div > p {
+        word-break: keep-all;
+        
+    }
+
+}
+
+
+
+
+
+
+
+

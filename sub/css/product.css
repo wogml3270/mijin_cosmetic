@@ -1,0 +1,353 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#product {
+    overflow: hidden;
+}
+
+#product> h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #111111;
+    margin-left: 11.198%;
+    padding: 15px 0;
+}
+
+.sales {
+    margin-top: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 11.198%;
+}
+
+.titleBox {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.titleBox > h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #CCAF98;
+}
+
+.titleBox > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+    color: #111111;
+}
+
+.skincare > ul {
+    border-left: 1px solid #111111;
+    margin-bottom: 50px;
+}
+
+.skincare > ul:last-child {
+    margin-bottom: 0;
+}
+
+.skincare > ul > li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    /* text-indent: 40px; */
+    color: #757575;
+    margin-bottom: 19px;
+}
+
+.skincare > ul > li:first-child {
+    margin-bottom: 35px;
+}
+
+.skincare > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.skincare li > a {
+    color: #757575;
+    display: block;
+    margin-left: 40px;
+}
+
+.skincare li:first-child > a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #757575;
+    margin-left: 15px;
+}
+
+.skincare > ul > li:hover > a {
+    font-weight: 400;
+    color: #111111;
+    text-decoration: underline #CCAF98;
+}
+
+.skincare > ul > li:first-child:hover > a {
+    text-decoration: none;
+}
+
+.pline {
+    margin-left: 10.537%;
+    width: 100%;
+}
+
+.pline > div {
+    margin-bottom: 15px;
+}
+
+.pline > div > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #CCAF98;
+}
+
+.pline > div > h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #111111;
+}
+
+.pline > div > p:last-child {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #787878;
+}
+
+.pline > span {
+    display: block;
+    width: 88.802%;
+    height: 1px;
+    border-top: 1px solid #111111;
+    box-sizing: border-box;
+}
+
+.pline > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #111111;
+    margin-top: 35px;
+    margin-bottom: 77px;
+}
+
+.pline > p:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #CCAF98;
+    background-color: #CCAF98;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.product_line {
+    width: 100%;
+}
+
+.product_line > div {
+    width: 100%;
+}
+
+.product_line > div > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 40px 75.6px;
+}
+.product_line > div > ul > li {
+    width: 100%;
+}
+.product_line > div > ul > li:not(:first-child){
+    display: none;
+}
+.imgBox > a {
+    display: block;
+}
+
+.imgBox > a > img {
+   width: 100%;
+}
+
+.productName {
+    width: 100%;
+    text-align: center;
+}
+
+.productName > span {
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    border-top: 1px solid #787878;
+    text-align: center;
+    margin: 2.5% 0;
+}
+
+.productName > p,
+.productName > p > span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+}
+
+.productName > p {
+    color: #111;
+}
+
+.productName > p > span {
+    color: #CCAF98;
+}
+
+.productBtn {
+    /* position: relative;
+    left: 97%; */
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 88px;
+}
+
+.productBtn > a {
+    display: inline-block;
+    height: 28px;
+}
+
+.productBtn > span {
+    position: relative;
+    top: -8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #111111;
+    margin: 0 14px;
+}
+.product_mobile_btn{
+    display: none;
+}
+
+@media only screen and (max-width: 899px) {
+    article{
+        position: fixed;
+        z-index: 9999;
+        left: -182px;
+        bottom: 0;
+        background: #ccaf98;
+        padding: 30px;
+        height: 100%;
+    }
+    .product_mobile_btn{
+        z-index: 5555;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 182px;
+        width: 25px;
+        height: 70px;
+        background-image: url("/images/main_mobile_btn.png");
+        background-color: #ccaf98;
+        background-size: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 10px 10px 0;
+        cursor: pointer;
+    }
+    .xbtn{
+        position: relative;
+        width: 20px;
+        height: 20px;
+        top: -7px;
+        left: 100px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+    }
+    .xbtn > span{
+        width: 20px;
+        height: 1px;
+        background: #000;
+        transform: rotate(50deg);
+        position: absolute;
+    }
+    .xbtn > span::before{
+        content: "";
+        width: 20px;
+        height: 1px;
+        background: #000;
+        transform: rotate(260deg);
+        position: absolute;
+    }
+    .titleBox{
+        margin-bottom: 10px;
+    }
+    .titleBox > h4{
+        font-size: 1.3em;
+        color: #111111;
+    }
+    .titleBox > p{
+        font-size: 0.9em;
+    }
+    .sales{
+        margin: 70px auto;
+        width: 90%;
+    }
+    .pline{
+        margin-left: 0;
+    }
+    .productBtn{
+        text-align: center;
+        margin-right: 0;
+    }
+    .skincare li > a{
+        color: #ffffff;
+    }
+    .skincare > ul > li:first-child{
+        margin-bottom: 10px;
+    }
+    .skincare li:first-child > a{
+        font-size: 0.9em;
+    }
+    .skincare > ul > li{
+        margin-bottom: 10px;
+        font-size: 0.7em;
+    }
+    .imgBox{
+        margin: 0 10%;
+        width: 80%;
+    }
+    
+
+}

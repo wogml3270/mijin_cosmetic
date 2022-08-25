@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+/* .mask_detail > h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    color: #111111;
+    margin: 0;
+    margin-top: 161px;
+}
+
+.mask_detail > span {
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    border-top: 1px solid #111;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+.mask_detail > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #CCAF98;
+} */
+
+.mask_detail > div > img {
+    width: 100%;
+}
+
+.features {
+    text-align: initial;
+    margin-top: 50px;
+}
+
+.features > h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #A3393B;
+    margin-bottom: 50px;
+}
+
+.features p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.features > p:nth-child(1){
+    margin-bottom: 50px;
+}
+
+.features .features_scr {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #787878;
+    text-transform: initial;
+    margin-top: 30px;
+}
+
+.features_gr {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    margin-top: 50px;
+}
+
+.features_gr > div > p {
+    text-align: initial;
+}
+
+.features_gr > div > img {
+    width: 80%;
+}
+
+.features_gr > div:nth-child(1){
+    margin-top: 56px;
+}
+
+.features_gr > div:nth-child(3){
+    display: none;
+}
+
+.features_gr > div:last-child {
+    margin-top: 43px;
+}
+
+.features_pro {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.features_pro > div > h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #A3393B;
+}
+
+.features_pro > div > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #111111;
+    text-align: initial;
+    margin-top: 30px;
+}
+
+.features_pro > div > p:last-child {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #111111;
+}
+
+.features > .pome_ingredient {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: initial;
+    color: #787878;
+    margin-top: 50px;
+}
+
+.howuse {
+    margin-top: 50px;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.howuse > div {
+    margin: 50px 0;
+}
+
+.howuse > div > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+    text-align: initial;
+    margin-left: 10%;
+}
+
+.howuse > div > p:last-child {
+    margin-top: 60px;
+}
+
+.precautions {
+    margin-top: 50px;
+    text-align: initial;
+}
+
+.precautions > p:first-child {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.precautions > p:last-child {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #787878;
+}
+
+@media screen and (max-width: 900px){
+
+    .mask_detail > h4 {
+        font-size: 36px;
+        color: #222;
+    }
+
+    .mask_detail > span {
+        border-top: 1px solid #222;
+    }
+
+    .mask_detail > p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .features > h5 {
+        font-size: 1.3em;
+        line-height: 30px;
+        text-align: center;
+        color: #A3393B;
+        margin-bottom: 30px;
+    }
+    .features p{
+        font-size: 0.8em;
+    }
+
+    .features > p:nth-child(1){
+        margin-bottom: 50px;
+    }
+
+    .features_gr {
+        display: initial;
+        margin-top: 50px;
+    }
+
+    .features_gr > div > p {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .features_gr > div > p:first-child{
+        font-size: 1.2em;
+    }
+
+    .features_gr > div {
+        margin-top: 56px;
+        width: 100%;
+    }
+
+    .features_gr > div > img {
+        width: 100%;
+    }
+
+    .features_gr > div:nth-child(1){
+        display: none;
+    }
+
+    .features_gr > div:nth-child(3){
+        display: initial;
+    }
+
+    .features_pro {
+        display: initial;
+        text-align: center;
+    }
+
+    .features_pro > div {
+        margin-top: 50px;
+    }
+
+    .features_pro > div > h5 {
+        font-size: 1.3em;
+        line-height: 35px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .features_pro > div > p {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 1.2em;
+    }
+    .features_pro > div > p:last-child{
+        font-size: 0.8em;
+    }
+
+    .features_pro > div > p > br {
+        display: none;
+    }
+
+    .features > .pome_ingredient {
+        margin-left: 0;
+        font-size: 0.8em;
+    }
+    .features .features_scr{
+        font-size: 0.8em;
+    }
+    .howuse > div > p{
+        font-size: 0.8em;
+    }
+    .precautions > p:first-child{
+        font-size: 1.2em;
+    }
+    .precautions > p:last-child{
+        font-size: 0.8em;
+    }
+
+
+}

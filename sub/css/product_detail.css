@@ -1,0 +1,438 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#product {
+    overflow: hidden;
+}
+
+#product> h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #111111;
+    margin-left: 11.198%;
+    padding: 15px 0;
+}
+
+.sales {
+    margin: 70px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+}
+
+.titleBox {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.titleBox > h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #CCAF98;
+}
+
+.titleBox > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+    color: #111111;
+}
+
+.skincare > ul {
+    border-left: 1px solid #111111;
+    margin-bottom: 50px;
+}
+
+.skincare > ul:last-child {
+    margin-bottom: 0;
+}
+
+.skincare > ul > li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    /* text-indent: 40px; */
+    color: #757575;
+    margin-bottom: 19px;
+}
+
+.skincare > ul > li:first-child {
+    margin-bottom: 35px;
+}
+
+.skincare > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+
+.skincare li > a {
+    color: #757575;
+    display: block;
+    margin-left: 40px;
+}
+
+.skincare li:first-child > a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #757575;
+    margin-left: 15px;
+}
+
+.skincare > ul > li:hover > a {
+    font-weight: 400;
+    color: #111111;
+    text-decoration: underline #CCAF98;
+}
+
+.skincare > ul > li:first-child:hover > a {
+    text-decoration: none;
+}
+
+.maskline {
+    margin-left: 10.537%;
+    width: 100%;
+}
+
+.mask {
+    margin-bottom: 15px;
+}
+
+.mask > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #CCAF98;
+}
+
+.mask > h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #111111;
+}
+
+.mask > p:last-child {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #787878;
+}
+
+.productInfo {
+    margin-top: 83px;
+}
+
+.es_mask {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.es_mask img {
+    min-width: 300px;
+    width: 100%;
+}
+
+.maskTitle {
+    /* margin-left: 30px; */
+    margin-left: 2.2%;
+}
+
+.maskTitle > h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #111 
+}
+
+.maskTitle > h4 > span {
+    color: #CCAF98;
+}
+
+.maskTitle > span {
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    border-top: 1px solid #111;
+    box-sizing: border-box;
+    margin: 30px 0;
+}
+
+.maskTitle > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #111111;
+}
+
+.maskTitle > p:nth-of-type(2){
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    word-break: keep-all;
+    margin-top: 120px;
+}
+
+@media screen and (max-width: 1480px){
+
+    .maskTitle > h4 {
+        font-size: 3vw;
+        line-height: 40px;
+    }
+
+    .maskTitle > span {
+        margin: 10px 0;
+    }
+
+    .maskTitle > p:nth-of-type(2){
+        margin-top: 15%;
+    }
+}
+
+.buttonBox {
+    text-align: center;
+}
+
+.buttonBox > button {
+    width: 123px;
+    height: 43px;
+    border: 1px solid #111;
+    box-sizing: border-box;
+    background: initial;
+    box-shadow: none;
+    border-radius: 0;
+
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.buttonBox > button:hover {
+    border: none;
+    background-color: #CCAF98;
+    color: #fff;
+}
+
+.detail_line {
+    border-bottom: 1px solid #111;
+    box-sizing: border-box;
+    width: 100%;
+    /* max-width: 1110px;
+    margin-top: 80px; */
+    margin: 80px auto;
+    position: relative;
+}
+
+.detail_line > span {
+    display: inline-block;
+    height: 30px;
+    width: 140px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #111;
+    border-bottom: 1px solid #fff;
+    
+    position: absolute;
+    top: -29px;
+    right: 9.5%;
+}
+
+.mask_detail {
+    text-align: center;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.mask_detail > img {
+    width: 100%;
+}
+
+@media screen and (max-width:900px){
+    article{
+        position: fixed;
+        z-index: 9999;
+        left: -182px;
+        bottom: 0;
+        background: #ccaf98;
+        padding: 30px;
+        height: 100%;
+    }
+    .product_mobile_btn{
+        z-index: 5555;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 182px;
+        width: 25px;
+        height: 70px;
+        background-image: url("/images/main_mobile_btn.png");
+        background-color: #ccaf98;
+        background-size: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 10px 10px 0;
+        cursor: pointer;
+    }
+    .xbtn{
+        position: relative;
+        width: 20px;
+        height: 20px;
+        top: -7px;
+        left: 100px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+    }
+    .xbtn > span{
+        width: 20px;
+        height: 1px;
+        background: #000;
+        transform: rotate(50deg);
+        position: absolute;
+    }
+    .xbtn > span::before{
+        content: "";
+        width: 20px;
+        height: 1px;
+        background: #000;
+        transform: rotate(260deg);
+        position: absolute;
+    }
+    .titleBox{
+        margin-bottom: 10px;
+    }
+    .titleBox > h4{
+        font-size: 1.3em;
+        color: #111111;
+    }
+    .titleBox > p{
+        font-size: 0.9em;
+    }
+    .sales{
+        margin: 70px auto;
+        width: 90%;
+    }
+    .pline{
+        margin-left: 0;
+    }
+    .productBtn{
+        text-align: center;
+        margin-right: 0;
+    }
+    .skincare > ul > li:first-child{
+        margin-bottom: 10px;
+    }
+    .skincare li:first-child > a{
+        font-size: 0.9em;
+    }
+    .skincare li > a{
+        color: #ffffff;
+    }
+    .skincare > ul > li{
+        margin-bottom: 10px;
+        font-size: 0.7em;
+    }
+    .mask{
+        text-align: center;
+    }
+
+    .productInfo {
+        margin-top: 40px;
+    }
+
+    .es_mask {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .es_mask img {
+        min-width: 260px;
+        width: 80%;
+        margin-left: 0;
+    }
+    .maskline{
+        margin-left: 0;
+    }
+
+    .maskTitle {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .maskTitle > h4 {
+        line-height: 28px;
+        color: #333;
+    }
+
+    .maskTitle > span {
+        display: inline-block;
+        width: 20px;
+        height: 1px;
+        border-top: 1px solid #333;
+        box-sizing: border-box;
+        margin: 10px 0;
+    }
+
+    .maskTitle > p {
+        color: #333;
+    }
+
+    .maskTitle > p:nth-of-type(2){
+        line-height: 19px;
+        margin-top: 10px;
+        /* width: 90%; */
+    }
+
+    .buttonBox {
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+    }
+    .sales h4{
+        font-size: 1.5em;
+    }
+    .sales h5{
+        font-size: 1em;
+    }
+    .sales p{
+        font-size: 0.8em;
+    }
+    .maskTitle > p:nth-of-type(2){
+        font-size: 0.8em;
+    }
+
+
+}
+
+

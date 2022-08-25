@@ -1,0 +1,142 @@
+<header class="sub_header">
+    <div class="header_logo">
+        <a href="/">
+            <span class="logo_img"></span>
+        </a>
+    </div>
+    <div class="header_gnb">
+        <nav>
+            <ul class="header_gnb_menu">
+                <li class="gnb01" data-name="gnb01">
+                    <a href="/sub/outline.html">COMPANY</a>
+                    <div class="menu_open">
+                        <ul class="menu_box">
+                            <li><a href="/sub/outline.html">company outline</a></li>
+                            <!-- <li><a href="">ceo’s message</a></li> -->
+                            <!-- <li><a href="">about ci and bi</a></li> -->
+                            <li><a href="/sub/milestone.html">milestone</a></li>
+                            <!-- <li><a href="">organzaion chart</a></li> -->
+                            <!-- <li><a href="">direction</a></li> -->
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb02" data-name="gnb02">
+                    <a href="">BUSINESS</a>
+                    <div class="menu_open">
+                        <ul class="menu_box">
+                            <!-- <li><a href="">oem/odm</a></li> -->
+                            <!-- <li><a href="">business process</a></li> -->
+                            <li><a href="/sub/r&d.html">r&d</a></li>
+                            <!-- <li><a href="">product quality</a></li> -->
+                            <!-- <li><a href="">management</a></li> -->
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb03" data-name="gnb03">
+                    <a href="/sub/product_care.html">PRODUCT</a>
+                    <div class="menu_open">
+                        <ul class="menu_box">
+                            <li><a href="/sub/product_care.html">mask pack - patch</a></li>
+                            <li><a href="/sub/product_cream.html">skin care</a></li>
+                            <li><a href="/sub/product_handfoot.html">BODY-HAIR CARE</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb04" data-name="gnb04">
+                    <a href="/sub/exposition.html">PROMOTION VIDEO</a>
+                    <div class="menu_open">
+                        <ul class="menu_box">
+                            <li><a href="/sub/exposition.html">exposition</a></li>
+                            <!-- <li><a href="">corporate news</a></li> -->
+                            <li><a href="/sub/review.html">product review</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb05" data-name="gnb05">
+                    <a href="/sub/notice.html">CS CENTER</a>
+                    <div class="menu_open">
+                        <ul class="menu_box">
+                            <li><a href="/sub/notice.html">q&a</a></li>
+                            <li><a href="/sub/data.html">data</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <img src="/images/mobile_btn.png" class="header_gnb_mobile_toggle">
+        <ul class="header_gnb_mobile">
+            <li class="gnb_mobile01">
+                <a href="/sub/outline.html">COMPANY</a>
+                <ul class="gnb_mobile_open01">
+                    <li><a href="/sub/outline.html">company outline</a></li>
+                    <!-- <li><a href="">ceo’s message</a></li> -->
+                    <!-- <li><a href="">about ci and bi</a></li> -->
+                    <li><a href="/sub/milestone.html">milestone</a></li>
+                    <!-- <li><a href="">organzaion chart</a></li> -->
+                    <!-- <li><a href="">direction</a></li> -->
+                </ul>
+            </li>
+            <li class="gnb_mobile02">
+                <a href="">BUSINESS</a>
+                <ul class="gnb_mobile_open02">
+                    <!-- <li><a href="">oem/odm</a></li> -->
+                    <!-- <li><a href="">business process</a></li> -->
+                    <li><a href="/sub/r&d.html">r&d</a></li>
+                    <!-- <li><a href="">product quality</a></li> -->
+                    <!-- <li><a href="">management</a></li> -->
+                </ul>
+            </li>
+            <li class="gnb_mobile03">
+                <a href="/sub/product_care.html">PRODUCT</a>
+                <ul class="gnb_mobile_open03">
+                    <li><a href="/sub/product_care.html">mask pack - patch</a></li>
+                    <li><a href="/sub/product_cream.html">skin care</a></li>
+                    <li><a href="/sub/product_handfoot.html">BODY-HAIR CARE</a></li>
+                </ul>
+            </li>
+            <li class="gnb_mobile04">
+                <a href="/sub/promotion.html">PROMOTION VIDEO</a>
+                <ul class="gnb_mobile_open04">
+                    <li><a href="/sub/exposition.html">exposition</a></li>
+                    <!-- <li><a href="">corporate news</a></li> -->
+                    <li><a href="/sub/review.html">product review</a></li>
+                </ul>
+            </li>
+            <li class="gnb_mobile05">
+                <a href="/sub/notice.html">CS CENTER</a>
+                <ul class="gnb_mobile_open05">
+                    <li><a href="/sub/notice.html">q&a</a></li>
+                    <li><a href="/sub/data.html">data</a></li>
+                </ul>
+            </li>
+        </ul>
+    <div class="header_lang">
+        <select name="lang_select">
+            <option value="eng" selected>ENG</option>
+            <option value="kor">KOR</option>
+        </select>
+    </div>
+</header>
+<script>
+    $(function(){
+        $('.header_gnb_mobile_toggle').click(function(){
+            $('.header_gnb_mobile').slideToggle();
+        });
+        $('.gnb_mobile01').click(function(){
+            $('.gnb_mobile_open01').slideToggle();
+        });
+        $('.gnb_mobile02').click(function(){
+            $('.gnb_mobile_open02').slideToggle();
+        });
+        $('.gnb_mobile03').click(function(){
+            $('.gnb_mobile_open03').slideToggle();
+        });
+        $('.gnb_mobile04').click(function(){
+            $('.gnb_mobile_open04').slideToggle();
+        });
+        $('.gnb_mobile05').click(function(){
+            $('.gnb_mobile_open05').slideToggle();
+        });
+    });
+</script>

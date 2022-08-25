@@ -1,0 +1,550 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+/* swiper styling custom */
+.nav_btn01{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    margin-left: 85%;
+    margin-top: 30px;
+}
+.nav_btn02{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    margin-left: 90%;
+    margin-top: 50px;
+}
+.swiper {
+    width: 100%;
+    height: 435px;
+}
+.swiper-wrapper{
+    height: 350px!important;
+}
+.swiper-button-next::after, .swiper-button-prev::after{
+    display: none;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+.mySwiper01 .swiper-button-next{
+    background: url("/images/swiper-button-next.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    right: 0;
+    z-index: 99;
+}
+.mySwiper01 .swiper-button-prev{
+    background: url("/images/swiper-button-prev.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    left: 0;
+    z-index: 99;
+}
+
+.mySwiper01 .swiper-pagination{
+    bottom: 0;
+}
+.mySwiper02 .swiper-slide a{
+    width: 100%;
+}
+.mySwiper02 .swiper-slide img {
+    width: 50%;
+}
+.mySwiper02 .swiper-slide-active img{
+    width: 140%;
+    right: 20%;
+    transition: 1s;
+    height: auto;
+    position: relative;
+}
+.mySwiper02 .swiper-pagination{
+    bottom: 0;
+}
+/* .mySwiper02 .swiper-slide-active img::after{
+    content: "Mijin Cosmetics Co., Ltd.,";
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CCAF98;
+    position: absolute;
+    top: 231px;
+    right: -394px;
+} */
+.mySwiper02 .swiper-button-next{
+    background: url("/images/swiper-button-next.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    right: 0;
+    z-index: 99;
+}
+.mySwiper02 .swiper-button-prev{
+    background: url("/images/swiper-button-prev.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    left: 0;
+    z-index: 99;
+}
+
+
+/* main slide */
+#main_container{
+    margin: 0 auto;
+}
+.main_container_wrap{
+    height: 100%;
+}
+.main_slide_container{
+    margin: 0 auto;
+    width: 100%;
+    height: 882px;
+    position: relative;
+}
+.main_slide_container > .main_slide{
+    width: 100%;
+    height: 882px;
+    position: absolute;
+}
+.main_slide_container > div.slide{
+    display: block;
+}
+.main_slide:nth-child(1){
+    background: url("../images/slide01.jpg") center no-repeat;
+    background-size: cover;
+}
+.main_slide:nth-child(2){
+    background: url("../images/slide02.jpg") center no-repeat;
+    background-size: cover;
+}
+.main_slide:nth-child(3){
+    background: url("../images/slide03.jpg") center no-repeat;
+    background-size: cover;
+}
+.main_slide:nth-child(4){
+    background: url("../images/slide04.jpg") center no-repeat;
+    background-size: cover;
+}
+.slide_btn_num{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    z-index: 9999;
+}
+.slide_btn_num > span{
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.slide_btn_num > span.slide{
+    background: #ffffff;
+}
+.slide_text_box{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    width: 40%;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #ffffff;
+}
+.slide_text_box > h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+.slide_text_box > p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.prev{
+    position: absolute;
+    z-index: 999;
+    left: -40%;
+    top: 70px;
+}
+.next{
+    position: absolute;
+    z-index: 999;
+    right: -90%;
+    top: 70px;
+}
+.prev::after{
+    content: "";
+    height: 1px;
+    width: 50px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+.next::before{
+    content: "";
+    height: 1px;
+    width: 50px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+    right: 60px;
+}
+.prev > span, .next > span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.next > span:hover, .prev > span:hover{
+    color: #787878;
+    transition: 0.5s;
+}
+
+/* main contents */
+/* content01 */
+.main_content_container{
+    margin: 0 auto;
+    max-width: 1490px;
+}
+.main_content01{
+    margin-top: 120px;
+}
+.main_content01 > h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #111111;
+    margin-bottom: -52px;
+}
+.main_content01_01{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: 5%;
+    margin-bottom: 300px;
+}
+.main_contnet01_group{
+    /* width: 60%; */
+}
+.main_contnet01_group > p{
+    margin-bottom: 70px;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #787878;
+    width: 75%;
+}
+.main_contnet01_group > p::before{
+    content: "";
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    background: #CDB099;
+    top: -30px;
+}
+.main_contnet01_left{
+   text-align: center;
+   width: 57%;
+}
+.main_contnet01_left > p{
+    text-align: left;
+}
+.main_contnet01_left_group{
+    display: flex;
+    width: 100%;
+}
+.main_contnet01_left_group > div{
+    width: 80%;
+    margin-right: 30px;
+}
+.main_contnet01_left_group > div > img{
+    width: 100%;
+}
+.main_content01_right{
+    width: 70%;
+}
+.main_content01_right > div > img{
+    width: 100%;
+}
+.main_item{
+    position: relative;
+}
+.main_txt{
+    position: absolute;
+    bottom: -130px;
+    text-align: center;
+}
+.main_txt > h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #111111;
+}
+.main_txt > p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #787878;
+    margin-top: 10px;
+}
+.main_txt_a{
+    bottom: -110px;
+}
+.main_txt_b{
+    
+}
+.main_txt_c{
+    width: 60%;
+}
+
+/* content02 */
+
+.main_content02_group{
+    display: flex;
+}
+.main_content02_group > div{
+    position: relative;
+}
+.main_content02_group > div:nth-child(1):before{
+    content: "BEST ESSENCE MASK";
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    z-index: 1;
+}
+.main_content02_group > div > h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #111111;
+    position: absolute;
+    top: -25px;
+    z-index: 1;
+}
+.main_content02_group > div > ul{
+    display: flex;
+}
+.main_content02_group > div > ul > li{
+    /* margin-left: 10%; */
+}
+.main_content02_group > div > ul > li > a > p{
+    margin-top: 30px;
+    text-align: center;
+    color: #111111;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    position: relative;
+}
+.main_content02_group > div > ul > li > a > p::before{
+    content: "";
+    width: 20px;
+    height: 1px;
+    background: #111111;
+    position: absolute;
+    left: 45%;
+    top: -15px;
+}
+
+/* main content03 */
+.main_content03_group{
+    margin: 120px auto;
+    height: 506px;
+}
+.main_content03_group > h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #111111;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main_content03_group > h2 > span{
+    color: #CCAF98;
+}
+.main_content03_group > div{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+.main_content03_group > div > ul{
+    display: flex;
+    align-items: baseline;
+}
+.main_content03_group > div > ul > li{
+    width: 100%;
+}
+.main_content03_group > div > ul > li:nth-child(2){
+    position: relative;
+}
+
+
+/* main container bottom */
+.main_conainer_bottom{
+    width: 100%;
+    height: 288px;
+    background-color: #F4EBE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.main_conainer_bottom > div{
+    width: 612px;
+    height: 242px;
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main_conainer_bottom > div::before{
+    content: "";
+    width: 592px;
+    height: 222px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 1px solid #EEE9E1;
+}
+.main_conainer_bottom > div > p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #111111;
+}
+.notice > p{
+    position: relative;
+}
+.notice > p:after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 39%;
+    width: 20px;
+    height: 1px;
+    background-color: #655E53;
+}
+.notice > hr{
+    width: 486px;
+    margin-top: 30px;
+    color: #655E53;
+    background-color: #655E53;
+}
+.customer > p:not(:first-child){
+    margin-top: 7px;
+}
+.customer > p:nth-child(2){
+    position: relative;
+}
+.customer > p:nth-child(2):after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 39%;
+    width: 20px;
+    height: 1px;
+    background-color: #655E53;
+}
+.time{
+    display: flex;
+}
+.time > div{
+    margin-top: 15px;
+}
+.time > div:first-child{
+    border-right: 1px solid #787878;
+    padding-right: 15px;
+}
+.time > div:not(:first-child){
+    padding-left: 15px;
+}
+.time > div > p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #787878;
+}
+.time > div > p:not(:first-child){
+    margin-top: 15px;
+}
+
+.page_top{
+    display: none;
+    position: fixed;
+    bottom: 246px;
+    right: 30px;
+    width: 45.45px;
+    height: 45.45px;
+    border-radius: 50%;
+    background: url('/images/top_btn.png') center;
+    background-size: cover;
+    color: #ffffff;
+    border: 1px solid #787878;
+    z-index: 999;
+}

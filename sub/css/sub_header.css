@@ -1,0 +1,120 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#sub_header{
+    width: 100%;
+    margin: 0 auto;
+}
+.sub_header{
+    z-index: 9999;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 83px;
+    background: #ffffff;
+    position: absolute;
+}
+.sub_header > .header_logo{
+    margin-top: 20px;
+    margin-left: 5%;
+    z-index: 9999;
+}
+.logo_img{
+    display: block;
+    width: 101px;
+    height: 46px;
+    background: url('/images/sub_logo.svg');
+}
+
+.sub_header:hover{
+    background: rgba(204, 175, 152, 0.5);
+    backdrop-filter: blur(20px);
+    height: 383px;
+    transition: 0.5s;
+}
+.sub_header:hover .logo_img{
+    background: url('/images/main_logo.svg');
+}
+.sub_header:hover .header_gnb_menu > li > a{
+    color: #ffffff;
+}
+.sub_header:hover .menu_box >  li > a{
+    color: #ffffff;
+}
+.sub_header:hover .header_lang > select{
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.header_gnb{
+    height: 100%;
+    width: 100%;
+}
+.header_gnb:hover .menu_open{
+    z-index: 99;
+    display: block;
+    transition: 0.5s;
+}
+.header_gnb_menu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 83px;
+    margin: 30px 15% 0;
+}
+.header_gnb_menu > li{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.header_gnb_menu > li > a{
+    color: #CCAF98;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/* menu open */
+
+.menu_open{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    margin-top: 58px;
+    width: 100%;
+}
+.menu_box > li:not(:first-child){
+    margin-top: 20px;
+}
+.menu_box >  li > a{
+    color: #CCAF98;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+/* lang select */
+
+.header_lang{
+    position: relative;
+    margin-top: 30px;
+    margin-right: 5%;
+}
+.header_lang > select{
+    border: 0;
+    border-bottom: 1px solid #111111;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #111111;
+    background: none;
+}
